@@ -1,0 +1,47 @@
+    1  cd HW_10/
+    2  touch text_ignore.txt
+    3  ls -l
+    4  cd Desktop//Users/admin/Desktop/QA-GIT-HW 
+    5  cd Desktop/
+    6  cd QA-GIT-HW/
+    7  git clone https://github.com/vladyslava2769/HW_10.git
+    8  touch text_ignore.txt
+    9  ls -l
+   10  cd ../
+   11  cd QA-GIT-HW/
+   12  HW_10/
+   13  ls -l
+   14  clear
+   15  cd HW_10/
+   16  touch text_ignore.txt
+   17  ls -l
+   18  vim .gitignore
+   19  git status
+   20  git add .
+   21  git status
+   22  cat .gitignore
+   23  vim .gitignore
+   24  git status
+   25  git add .
+   26  git commit -m "First commit"
+   27  touch main_test.txt
+   28  git add .
+   29  git commit -m "Second commit"
+   30  git branch
+   31  git checkout -b develop
+   32  touch develop_test.txt
+   33  ls -l
+   34  git branch
+   35  git add .
+   36  git commit -m "Third commit"
+   37  vim develop_test.txt file
+   38  git status
+   39  git add .
+   40  git commit -m "Fourth commit"
+   41  git checkout
+   42  git branch
+   43  git checkout main
+   44  git branch
+   45  git merge develop
+   46  git log
+   47  history > command_list.csv
